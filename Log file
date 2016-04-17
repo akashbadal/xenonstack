@@ -1,0 +1,365 @@
+{
+  "took" : 16,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 34859,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "system",
+      "_id" : "AVQi1PeV-A0gw342nSHr",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:07:40.653Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 32057671,
+          "user_p" : 0,
+          "nice" : 0,
+          "system" : 11669437,
+          "system_p" : 0,
+          "idle" : 76861312,
+          "iowait" : 0,
+          "irq" : 0,
+          "softirq" : 0,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0,
+          "load5" : 0,
+          "load15" : 0
+        },
+        "mem" : {
+          "total" : 4224290816,
+          "used" : 2468618240,
+          "free" : 1755672576,
+          "used_p" : 0.58,
+          "actual_used" : 928227328,
+          "actual_free" : 1219125248,
+          "actual_used_p" : 0.22
+        },
+        "swap" : {
+          "total" : 0,
+          "used" : 0,
+          "free" : 0,
+          "used_p" : 0
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1P5--A0gw342nSHw",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:07:40.705Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+          "cpu" : {
+            "user" : 10843,
+            "user_p" : 0,
+            "system" : 8156,
+            "total" : 18999,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 17534976,
+            "rss" : 37048320,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "RuntimeBroker.exe",
+          "pid" : 8852,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1P5--A0gw342nSH1",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:07:40.745Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Lenovo\\Energy Management\\Energy Management.exe\" ",
+          "cpu" : {
+            "user" : 31,
+            "user_p" : 0,
+            "system" : 46,
+            "total" : 77,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 2244608,
+            "rss" : 9138176,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "Energy Management.exe",
+          "pid" : 6720,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1P5_-A0gw342nSH7",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:07:40.802Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Users\\Akash\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/1DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/Unused_2/PasswordBranding/Disabled/*PasswordGeneration/Disabled/PreRead/Default/*QUIC/EnabledNoId/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Launch50pct_11011_1_1_10/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/default/*UMA-Uniformity-Trial-10-Percent/default/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_19/*UMA-Uniformity-Trial-50-Percent/group_01/*UseDelayAgnosticAEC/DefaultEnabled/WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --extension-process --enable-webrtc-hw-h264-encoding --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=fetchDeferLateScripts=true,fetchIncreaseFontPriority=true,fetchIncreasePriorities=true --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --disable-accelerated-video-decode --channel=\"6700.2.1624668353\\234068459\" /prefetch:1",
+          "cpu" : {
+            "user" : 15859,
+            "user_p" : 0,
+            "system" : 1468,
+            "total" : 17327,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 59281408,
+            "rss" : 54423552,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 4668,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1P6B-A0gw342nSID",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:07:40.876Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\system32\\cmd.exe /c \"\"C:\\elasticsearch-2.3.1\\elasticsearch-2.3.1\\bin\\elasticsearch.bat\" \"",
+          "cpu" : {
+            "user" : 15,
+            "user_p" : 0,
+            "system" : 46,
+            "total" : 61,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 2850816,
+            "rss" : 3264512,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "cmd.exe",
+          "pid" : 6372,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1Y6w-A0gw342nSKH",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:08:20.800Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Users\\Akash\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" --type=gpu-process --channel=\"6700.0.293291914\\1499370929\" --disable-d3d11 --supports-dual-gpus=false --gpu-driver-bug-workarounds=3,9,11,16,25,54 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0x2a42 --gpu-driver-vendor=\"Intel Corporation\" --gpu-driver-version=8.15.10.2702 --ignored=\" --type=renderer \" /prefetch:2",
+          "cpu" : {
+            "user" : 93015,
+            "user_p" : 0,
+            "system" : 49328,
+            "total" : 142343,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 59113472,
+            "rss" : 63418368,
+            "rss_p" : 0.02,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 9088,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1Y6w-A0gw342nSKM",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:08:20.838Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd32.exe\" --channel=6480.0.1262956384 --type=renderer /prefetch:1  \"C:\\Users\\Akash\\Desktop\\Collect-System-Metrics-Using-Topbeat.pdf_attachment_638528.pdf\"",
+          "cpu" : {
+            "user" : 1218,
+            "user_p" : 0,
+            "system" : 1203,
+            "total" : 2421,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 29896704,
+            "rss" : 50597888,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "AcroRd32.exe",
+          "pid" : 8572,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1Y6w-A0gw342nSKP",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:08:20.861Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\AcroCEF\\RdrCEF.exe\" --type=renderer --disable-3d-apis --disable-databases --disable-direct-npapi-requests --disable-file-system --disable-notifications --disable-shared-workers --lang=en-US --lang=en-US --log-severity=disable --product-version=\"ReaderServices/15.10.20056 Chrome/45.0.2454.85\" --enable-pinch --device-scale-factor=1 --enable-delegated-renderer --num-raster-threads=1 --gpu-rasterization-msaa-sample-count=8 --content-image-texture-target=3553 --video-image-texture-target=3553 --disable-accelerated-video-decode --disable-webrtc-hw-encoding --disable-gpu-compositing --channel=\"7220.2.968011255\\1385869954\" --allow-no-sandbox-job --font-cache-shared-handle=1616 /prefetch:673131151",
+          "cpu" : {
+            "user" : 3468,
+            "user_p" : 0,
+            "system" : 281,
+            "total" : 3749,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 59400192,
+            "rss" : 59211776,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "RdrCEF.exe",
+          "pid" : 5136,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQi1Y6w-A0gw342nSKU",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:08:20.901Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Users\\Akash\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/1DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/Unused_2/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PreRead/Default/*QUIC/EnabledNoId/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Launch50pct_11011_1_1_10/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/*SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/default/*UMA-Uniformity-Trial-10-Percent/default/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_19/*UMA-Uniformity-Trial-50-Percent/group_01/*UseDelayAgnosticAEC/DefaultEnabled/*WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=fetchDeferLateScripts=true,fetchIncreaseFontPriority=true,fetchIncreasePriorities=true --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --disable-accelerated-video-decode --channel=\"6700.16.601758595\\1776738268\" /prefetch:1",
+          "cpu" : {
+            "user" : 27796,
+            "user_p" : 0.0046,
+            "system" : 2234,
+            "total" : 30030,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 112037888,
+            "rss" : 125100032,
+            "rss_p" : 0.03,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 3088,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-P7RT7SC\\Akash"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "filesystem",
+      "_id" : "AVQi1Y66-A0gw342nSKa",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T06:08:20.943Z",
+        "beat" : {
+          "hostname" : "DESKTOP-P7RT7SC",
+          "name" : "DESKTOP-P7RT7SC"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "G:\\",
+          "total" : 79719378944,
+          "used" : 65666637824,
+          "used_p" : 0.82,
+          "free" : 14052741120,
+          "avail" : 14052741120,
+          "files" : 0,
+          "free_files" : 0,
+          "mount_point" : "G:\\"
+        },
+        "type" : "filesystem"
+      }
+    } ]
+  }
+}
